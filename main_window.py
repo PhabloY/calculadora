@@ -1,6 +1,5 @@
-from PySide6.QtCore import QSize, Qt
-from PySide6.QtWidgets import (QApplication, QMainWindow, QTabWidget, QWidget,
-                               QVBoxLayout, QLabel,)
+from PySide6.QtWidgets import (QMainWindow, QWidget,
+                               QVBoxLayout,)
 
 
 class MainWindow(QMainWindow):
@@ -8,8 +7,8 @@ class MainWindow(QMainWindow):
         super().__init__(parent, *args, **kwargs)
         # Configurando o layout básico
         self.cw = QWidget()
-        self.v_layout = QVBoxLayout()
-        self.cw.setLayout(self.v_layout)
+        self.vLayout = QVBoxLayout()
+        self.cw.setLayout(self.vLayout)
         self.setCentralWidget(self.cw)
 
         # Título da janela
@@ -19,8 +18,5 @@ class MainWindow(QMainWindow):
         self.adjustSize()
         self.setFixedSize(self.width(), self.height())
 
-    def multiplication(self, valor, multiplicador):
-        self.valor = valor
-        self.multiplicador = multiplicador
-        multiplicacao = self.valor * self.multiplicador
-        return multiplicacao
+    def addWidgetToVLayout(self, widget: QWidget):
+        self.vLayout.addWidget(widget)
