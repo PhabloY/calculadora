@@ -30,11 +30,11 @@ class ButtonsGrid(QGridLayout):
         self._makeGrid()
 
     def _makeGrid(self):
-        for i, row in enumerate(self._gridMask):
-            for j, button_text in enumerate(row):
-                button = Button(button_text)
+        for rowNumber, rowData in enumerate(self._gridMask):
+            for colNumber, buttonText in enumerate(rowData):
+                button = Button(buttonText)
 
-                if not isNumOrDot(button_text) and not isEmpty(button_text):
+                if not isNumOrDot(buttonText) and not isEmpty(buttonText):
                     button.setProperty('cssClass', 'specialButton')
 
-                self.addWidget(button, i, j)
+                self.addWidget(button, rowNumber, colNumber)
