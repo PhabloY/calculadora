@@ -5,7 +5,7 @@ from display import Display
 from main_window import MainWindow
 from PySide6.QtGui import QIcon
 from variables import WINDOW_ICON_PATH
-from styles import setupTheme
+from styles import setupTheme  # type: ignore
 from buttons import ButtonsGrid
 
 
@@ -21,7 +21,7 @@ if __name__ == '__main__':
     app.setWindowIcon(icon)
 
     # info
-    info = Info('2.0 ^ 10.0 = 1024')
+    info = Info('Sua conta')
     window.addWidgetToVLayout(info)
 
     # Display
@@ -29,7 +29,7 @@ if __name__ == '__main__':
     window.addWidgetToVLayout(display)
 
     # Grid
-    buttonsGrid = ButtonsGrid(display)
+    buttonsGrid = ButtonsGrid(display, info)
     window.vLayout.addLayout(buttonsGrid)
 
     # executa tudo
