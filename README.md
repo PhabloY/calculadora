@@ -2,7 +2,7 @@
 
 Este projeto é uma calculadora desenvolvida em Python utilizando a biblioteca PySide6 para a interface gráfica. O código está organizado em múltiplos arquivos para melhor modularização e manutenção.
 
-## \ud83d\udcc2 Estrutura do Projeto
+## Estrutura do Projeto
 
 - `main.py` - Arquivo principal que inicializa a aplicação.
 - `main_window.py` - Configura e exibe a janela principal da calculadora.
@@ -12,12 +12,12 @@ Este projeto é uma calculadora desenvolvida em Python utilizando a biblioteca P
 - `variables.py` - Contém variáveis globais utilizadas na aplicação.
 - `styles.py` - Define os estilos da interface gráfica.
 
-## \ud83d\ude80 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python 3+
 - PySide6
 
-## \ud83d\udee0\ufe0f Como Instalar e Executar
+## Como Instalar e Executar
 
 1. Clone este repositório:
    ```bash
@@ -42,14 +42,14 @@ Este projeto é uma calculadora desenvolvida em Python utilizando a biblioteca P
    python main.py
    ```
 
-## \ud83c\udfa8 Estilização
+## Estilização
 O design da calculadora é definido no arquivo `styles.py`, permitindo personalização da interface gráfica.
 
-## \ud83d\udccc Funcionalidades
+## Funcionalidades
 - Operações básicas: soma, subtração, multiplicação e divisão.
 - Interface gráfica intuitiva.
 - Exibição do histórico de cálculos.
 
-## \ud83d\udcc4 Licença
+## Licença
 Este projeto está licenciado sob a licença MIT. Sinta-se livre para contribuir e melhorar o código! \ud83c\udf89
 
