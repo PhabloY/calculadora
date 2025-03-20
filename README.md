@@ -10,7 +10,8 @@ Este projeto é uma calculadora desenvolvida em Python utilizando a biblioteca P
 - `display.py` - Controla a exibição dos números e operações digitadas.
 - `info.py` - Exibe informações adicionais sobre a calculadora.
 - `variables.py` - Contém variáveis globais utilizadas na aplicação.
-- `styles.py` - Define os estilos da interface gráfica.
+- `styles.py` - Define os estilos da interface gráfica
+- `utils.py`- Contém funções auxiliares para validações e operações gerais.
 
 ## Tecnologias Utilizadas
 
