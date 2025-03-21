@@ -52,5 +52,5 @@ O design da calculadora é definido no arquivo `styles.py`, permitindo personali
 - Exibição do histórico de cálculos.
 
 ## Licença
-Este projeto está licenciado sob a licença MIT. Sinta-se livre para contribuir e melhorar o código! \ud83c\udf89
+Este projeto está licenciado sob a licença MIT. Sinta-se livre para contribuir e melhorar o código!
 
